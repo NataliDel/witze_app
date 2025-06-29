@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Witze App</title>
+  </head>
+  <body>
+    <id="app">
+      <h1 class="heading">Witze App</h1>
+
+      <div class="current-joke">
+        <p class="current-joke__text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque
+          mollitia a cupiditate eveniet sit voluptatem! Dicta officiis optio
+          molestiae odio?
+        </p>
+        <div class="current-joke__actions">
+          <button class="current-joke__generate">Neuen Witz laden</button>
+          <button class="current-joke__save">
+            <span>Witz speichern</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="current-joke__save-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+    <div class="saved-jokes">
+      <h2 class="saved-jokes__heading">Gespeicherte Witze</h2>
+      <div class="saved-jokes__list">
+      <div class="saved-joke">
+        <div class="saved-joke__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam earum
+          quibusdam impedit asperiores aut cupiditate excepturi, tempora veniam
+          voluptatem accusamus.
+        </div>
+        <button class="saved-joke__remove">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="saved-joke__remove-icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m3 3 1.664 1.664M21 21l-1.5-1.5m-5.485-1.242L12 17.25 4.5 21V8.742m.164-4.078a2.15 2.15 0 0 1 1.743-1.342 48.507 48.507 0 0 1 11.186 0c1.1.128 1.907 1.077 1.907 2.185V19.5M4.664 4.664 19.5 19.5"
+            />
+          </svg>
+        </button>
+      </div>
+        <div class="saved-joke">
+          <div class="saved-joke__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            earum quibusdam impedit asperiores aut cupiditate excepturi, tempora
+            veniam voluptatem accusamus.
+          </div>
+          <button class="saved-joke__remove">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="saved-joke__remove-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m3 3 1.664 1.664M21 21l-1.5-1.5m-5.485-1.242L12 17.25 4.5 21V8.742m.164-4.078a2.15 2.15 0 0 1 1.743-1.342 48.507 48.507 0 0 1 11.186 0c1.1.128 1.907 1.077 1.907 2.185V19.5M4.664 4.664 19.5 19.5"
+              />
+            </svg>
+          </button>
+        </div>
+       
+          <div class="saved-joke">
+            <div class="saved-joke__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              earum quibusdam impedit asperiores aut cupiditate excepturi,
+              tempora veniam voluptatem accusamus.
+            </div>
+            <button class="saved-joke__remove">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="saved-joke__remove-icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m3 3 1.664 1.664M21 21l-1.5-1.5m-5.485-1.242L12 17.25 4.5 21V8.742m.164-4.078a2.15 2.15 0 0 1 1.743-1.342 48.507 48.507 0 0 1 11.186 0c1.1.128 1.907 1.077 1.907 2.185V19.5M4.664 4.664 19.5 19.5"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

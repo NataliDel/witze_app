@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik+Scribble&display=swap");
+
+$background: #333;
+$elevation: #444;
+$text-color: #fff;
+$font-text: "Inter", sans-serif;
+$font-display: "Rubik Scribble", cursive;
+$primary-color: #04da4b;
+$danger-color: #f02f2f;
+
+@mixin tablet-and-up() {
+  @media only screen and (min-width: 600px) {
+    @content;
+  }
+}
